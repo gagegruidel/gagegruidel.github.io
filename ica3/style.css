@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: green;
 }
 
 body {
@@ -57,7 +57,7 @@ header {
 }
 
 body > * {
-  background-color: red;
+  background-color: greenyellow;
   padding: 1%;
 }
 
@@ -78,8 +78,8 @@ header img {
 }
 
 nav {
-  height: 50px;
-  flex: 100%;
+  height: q00px;
+  flex: 75%;
   display: flex;
 }
 
