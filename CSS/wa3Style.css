@@ -1,0 +1,111 @@
+/* || General setup */
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: whitesmoke;
+  }
+  
+  body {
+    width: 75%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* || typography */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-style: 'Times New Roman';
+    color: black;
+  }
+  
+  p, input, li {
+    font-style: 'Times New Roman';
+    color: black;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+  
+  h3, h4, h6 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+    color: darkred
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  /* || header layout */
+  
+  header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  body > * {
+    background-color: whitesmoke;
+    padding: 1%;
+  }
+  
+  main, header, nav, article, aside, footer, section {
+    background-color: whitesmoke;
+    padding: 1%;
+  }
+  
+  h1 {
+    flex: 5;
+    text-transform: uppercase;
+  }
+  
+  header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+  }
+  
+  nav {
+    height: q00px;
+    flex: 75%;
+    display: flex;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 1.6rem;
+    height: 2rem;
+    line-height: 1.6;
+    text-decoration: none;
+    color: blue;
+  
+  }
+  
+  /* || main layout */
+  
+  main {
+    display: flex;
+  }
+
+  img {
+    max-width: 75%
+  }
+  
