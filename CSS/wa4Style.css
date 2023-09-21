@@ -1,0 +1,112 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', 'Arial', 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  h2 p {
+    margin: 0;
+  }
+
+  article {
+    height: 10em;
+    color: lightgrey;
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.8em;
+    border-spacing: 1em;
+    padding-left: 1em;
+    margin: 0.2em;
+  }
+  
+  h2 {
+    padding-left: 0.5em;
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  footer {
+    margin: 0.2em;
+    padding-left: 1em;
+    font-size: 1.4em;
+  }
+
+  /* card rules for the body, header, footer, and image */
+  .card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+
+  .card header footer {
+    height: 3em;
+    padding: 1em;
+  }
+  
+  .card footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+  
+  .card article img {
+    max-height: 100%;
+    float: right;
+  }
+
+  .card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: forestgreen;
+    border: 0.2em solid hotpink;
+    border-radius: 1.5em;
+  }
+
+  .card2 header footer {
+    height: 3em;
+    padding: 1em;
+  }
+  
+  .card2 footer {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+  }
+  
+  .card2 header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+  }
+  
+  .card2 article img {
+    max-height: 100%;
+    float: right;
+  }
+
+  .card2 article {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 12em;
+    color: hotpink;
+    background-color: rgba(0,0,0,0.3);
+    padding: 0.8em;
+    border-spacing: 1em;
+    padding-left: 1em;
+    margin: 0.2em;
+  }
+
