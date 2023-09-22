@@ -1,5 +1,4 @@
-/* Reset some default styles to ensure consistent rendering across browsers */
-body, h1, h2, p, ul, li, form {
+body, h1, h2, h3, p, ul, li, form {
     margin: 0;
     padding: 0;
 }
@@ -48,7 +47,7 @@ section {
     margin: 20px 0;
 }
 
-h2 {
+h1, h2, h3 {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -63,7 +62,6 @@ footer {
     padding: 10px;
     background-color: #007bff;
     color: #fff;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
@@ -94,4 +92,9 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+img{
+    width:200px;
+    height:200px;
 }
