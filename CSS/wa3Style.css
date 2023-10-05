@@ -84,7 +84,7 @@ html, body {
   }
   
   nav {
-    height: q00px;
+    height: 100px;
     flex: 75%;
     display: flex;
   }

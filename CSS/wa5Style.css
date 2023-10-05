@@ -1,0 +1,80 @@
+* {
+
+    box-sizing: border-box;
+
+    }
+    
+    html {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    body {
+            background-image: url(/img/jordan-kobe.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+    }
+
+    .overlay h1 {
+        font-size: 12px;
+        width: 10%;
+        height: 25%;
+        background-color: rgba(50,50,50,0.9);
+        color: whitesmoke;
+        text-align: center;
+        border: 10px;
+        padding: 10px;
+        box-sizing: content-box;
+        border-radius: 25px;
+    }
+
+    .overlay img {
+        width: 50%;
+        height: 50%;
+        background-color: rgba(0,0,0,0.75);
+    }
+    
+    .CHI {
+        font-size: 16px;
+        color: red;
+    }
+
+    .CHI img {
+        width: 50%;
+        height: 50%;
+        background-color: rgba(0,0,0,0,75);
+    }
+
+    .LAL {
+        font-size: 16px;
+        color: gold
+    }
+
+    .LAL img {
+        width: 50%;
+        height: 50%;
+        background-color: rgba(0,0,0,0,75);
+    }
+
+    .overlay2 h2 {
+        position: relative;
+        bottom: 325px;
+        left: 1500px;
+        font-size: 14px;
+        width: 10%;
+        height: 25%;
+        background-color: rgba(0,0,80,0.75);
+        color: whitesmoke;
+        text-align: center;
+        border: 5px;
+        padding: 5px;
+        box-sizing: content-box;
+        border-radius: 25px;
+    }
+
+    .overlay2 img {
+        width: 75%;
+        height: 75%;
+    }
