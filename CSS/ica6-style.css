@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    background-image: url(../ica/top-image.png), url(../ica/bottom-image.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    background-size: auto, auto;
+    border-top: 1mm solid darkred;
+    border-bottom: 1mm solid darkred;
+    background: linear-gradient(rgba(0,0,0,0.1)), transparent, transparent, rgba(0,0,0,0.1);
+
+}
+
+h1 {
+    background-image: url(../ica/logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
