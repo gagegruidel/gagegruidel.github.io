@@ -1,0 +1,77 @@
+body{
+    color: orange;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background-color: peachpuff;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: lightblue;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 50vw;
+    height: 10vh;
+    color: aquamarine;
+    background-color: lightblue;
+}
+
+#box:hover {
+    color: lightblue;
+    background-color: aquamarine;
+
+}
+
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#ball{
+    background-color: lightsteelblue;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    animation: ball 16s linear infinite;
+}
+
+
+@keyframes ball{
+    0% {
+        transform: translateX(0) translateY(100vh);
+    }
+
+    25% {
+        transform: translateX(50vw) translateY(0);
+    }
+
+    50% {
+        transform: translateX(0) translateY(50vh);
+    }
+
+    75% {
+        transform: translateX(-50vw) translateY(0);
+    }
+
+    100% {
+        transform: translateX(0) translateY(100vh);
+    }
+}
