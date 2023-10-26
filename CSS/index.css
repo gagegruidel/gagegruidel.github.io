@@ -1,0 +1,324 @@
+@media (max-width: 400px) {
+
+    .concerts {
+        grid-template-rows:1fr;
+    }
+
+    body {
+        background-image: linear-gradient(lightblue, violet);
+        color:white;
+    }
+    
+    main {
+        position: flex;
+        text-align: center;
+    }
+      
+    html {
+        font-size: 20px;
+    }
+    
+    header {
+        position: flex;
+        font-size: 30px;
+        justify-content: center;
+        padding-bottom: 50px;
+        position: flex;
+    }
+    
+    h1 {
+        color: black;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+    }
+    
+    p {
+        font-family:'Verdana';
+        justify-content: center;
+        position: flex;
+        font-size: 18px;
+    }
+      
+    h2 {
+        font-size: 40px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+
+    h3 {
+        font-size: 25px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+    
+    h2:hover {
+        color: black;
+    }
+    
+    img {
+        width: 25%;
+        padding: 25px;
+    }
+    
+    footer {
+        font-size: 30px;
+        color: black;
+        text-align: center;
+    
+    }
+    
+    .concerts {
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
+        gap: 50px;
+    }
+    
+    .border {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 75px solid;
+        border-image-width: 20px;
+        border-image: url(/img/music-note.png);
+        border-image-repeat: repeat;
+    }
+
+    .border2 {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 50px solid;
+        border-image-width: 20px;
+        border-image: url(/img/white-note.webp);
+        border-image-repeat: repeat;
+    }
+
+    .text-box {
+        background-color:darkgreen;
+        padding: 20px;
+        border: 5px solid white;
+        width: flex;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .concerts {
+        grid-template-rows:1fr;
+    }
+
+    body {
+        background-image: linear-gradient(lightblue, violet);
+        color:white;
+    }
+
+    main {
+        position: flex;
+        text-align: center;
+    }
+    
+    html {
+        font-size: 20px;
+    }
+
+    header {
+        position: flex;
+        font-size: 30px;
+        justify-content: center;
+        padding-bottom: 100px;
+        position: flex;
+    }
+
+    h1 {
+        color: black;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+    }
+
+    p {
+        justify-content: center;
+        position: flex;
+        font-size: 18px;
+        font-family: 'Verdana';
+    }
+    
+    h2 {
+        font-size: 40px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+
+    h3 {
+        font-size: 25px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+
+    h2:hover {
+        color: black;
+    }
+
+    img {
+        width: 10%;
+        padding: 50px;
+    }
+
+    footer {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .concerts {
+        justify-content: center;
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
+        gap: 50px;
+    }
+
+    .border {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 75px solid;
+        border-image-width: 20px;
+        border-image: url(/img/music-note.png);
+        border-image-repeat: repeat;
+    }
+
+    .border2 {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 50px solid;
+        border-image-width: 20px;
+        border-image: url(/img/white-note.webp);
+        border-image-repeat: repeat;
+    }
+
+    .text-box {
+        background-color:darkgreen;
+        padding: 20px;
+        border: 5px solid white;
+        width: flex;
+    }
+
+}
+
+    body {
+        background-image: linear-gradient(lightblue, violet);
+        color:white;
+    }
+
+    main {
+        position: flex;
+        text-align: center;
+    }
+    
+    html {
+        font-size: 20px;
+    }
+
+    header {
+        position: flex;
+        font-size: 30px;
+        justify-content: center;
+        padding-bottom: 100px;
+        position: flex;
+    }
+
+    h1 {
+        color: black;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+    }
+
+    p {
+        justify-content: center;
+        position: flex;
+        font-size: 18px;
+        font-family: 'Verdana';
+    }
+    
+    h2 {
+        font-size: 40px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+
+    h3 {
+        font-size: 25px;
+        position: flex;
+        text-align: center;
+        font-family:'Times New Roman';
+        color:white;
+    }
+
+    h2:hover {
+        color: black;
+    }
+
+    img {
+        width: 10%;
+        padding: 50px;
+    }
+
+    footer {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .concerts {
+        display: grid;
+        grid-template-rows: repeat(auto-fit, minmax(50px,1fr));
+        gap: 50px;
+    }
+
+    .border {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 75px solid;
+        border-image-width: 20px;
+        border-image: url(/img/music-note.png);
+        border-image-repeat: repeat;
+    }
+
+    .border2 {
+        width: flex;
+        height: flex;
+        margin-bottom: 1px;
+        padding: 1px;
+        border: 50px solid;
+        border-image-width: 20px;
+        border-image: url(/img/white-note.webp);
+        border-image-repeat: repeat;
+    }
+
+    .text-box {
+        background-color:darkgreen;
+        padding: 20px;
+        border: 5px solid white;
+        width: flex;
+    }
