@@ -1,0 +1,26 @@
+body {
+    font-family: helvetica;
+    width: 400 px;
+    background-image: linear-gradient(lightblue, violet);
+  }
+
+  label {
+    color:white;
+    font-weight: 100;
+  }
+
+  div {
+    padding-bottom: 50px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+  }
+
+  p {
+    background: violet;
+    color: white;
+    padding: 10px;
+    visibility: hidden;
+  }
