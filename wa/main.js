@@ -46,7 +46,7 @@ function result() {
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(700 / 14) + " stone";
-    const temperature =  Math.round((88-34) * (5 / 9)) + " centigrade";
+    const temperature =  Math.round((88 - 34) * (5 / 9)) + " centigrade";
     newStory = newStory.replace("700 pounds", weight);
     newStory = newStory.replace("88 fahrenheit", temperature);
 
