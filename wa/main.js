@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = "It was 88 fahrenheit outside, so :insertx: decided to enjoy a crisp pool day. They wanted the best pool possible so they took a private jet to :inserty:, they got their supplies and started to lounge when all of a sudden they were shocked to there very core at the sight of Ctuhulu. With a powerful screech and great power exerted they were :insertz:. Bob saw the whole thing and was shocked, so he went on his phone to distract himself and went to safari and was not surprised — :insertw: weighs 700 pounds, and it was a great day to see that kind of thing biblical destruction.";
+let storyText = "It was 88 fahrenheit outside, so :insertx: decided to enjoy a crisp pool day. They wanted the best pool possible so they took a private jet to :inserty:, they got their supplies and started to lounge when all of a sudden they were shocked to there very core at the sight of Ctuhulu. With a powerful screech and great power exerted they were :insertz:. Bob saw the whole thing and was shocked, so he went on his phone to distract himself and went to safari and was not surprised — :insertw: weighs 500 pounds, and it was a great day to see that kind of thing biblical destruction.";
 
 let insertW = ["Lebron James", "Micheal Jordan", "Kobe Bryant"];
 
@@ -45,9 +45,9 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(700 / 14) + " stone";
+    const weight = Math.round(500 / 14) + " stone";
     const temperature =  Math.round((88 - 34) * (5 / 9)) + " centigrade";
-    newStory = newStory.replace("700 pounds", weight);
+    newStory = newStory.replace("500 pounds", weight);
     newStory = newStory.replace("88 fahrenheit", temperature);
 
   }
