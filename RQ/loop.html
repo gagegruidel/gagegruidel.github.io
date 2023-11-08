@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Loop Example</title>
+  </head>
+  </html>
+<script>
+const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+const admitted = document.querySelector('.admitted');
+const refused = document.querySelector('.refused');
+admitted.textContent = 'Admit: ';
+refused.textContent = 'Refuse: ';
+
+for (let i = 0; i < people; i++) {
+  console.log(people[i]);
+if (people[i] === "Phil"  || people[i] === "Lola") {
+	refused.textContent += `${person},  `;
+}
+else {
+    admitted.textContent += `${person}, `;
+}	
+}
+
+refused.textContent = refused.textContent.slice(0,refused.textContent.length-2) + ".";
+admitted.textContent = admitted.textContent.slice(0,admitted.textContent.length-2) + ".";
+</script>
+</html>

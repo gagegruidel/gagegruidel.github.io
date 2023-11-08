@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Function library Example</title>
+  <style>
+    input {
+      font-size: 12em;
+      margin: 10px 5px 0;
+    }
+  </style>
+  </head>
+<body>
+
+  <input class="numberInput" type="text">
+  <p></p>
+
+  <script>
+    const input = document.querySelector('.numberInput');
+    const para = document.querySelector('p');
+
+  function squared(num) {
+  return num * num;
+}
+
+function squareroot(num) {
+  return Math.sqrt(num);
+}
+
+function cubed(num) {
+  return num * num * num;
+}
+
+function exponential(num) {
+  return num * num * num * num * num * num * num * num * num * num;
+}
+
+input.addEventListener("change", () => {
+  const num = parseFloat(input.value);
+  if (isNaN(num)) {
+    para.textContent = "You need to enter a number!";
+  } else {
+    para.textContent = `${num} squared is ${squared(num)}. `;
+    para.textContent = `${num} square root is ${squareroot(num)}. `;
+    para.textContent += `${num} cubed is ${cubed(num)}. `;
+    para.textContent += `${num} exponent to 10 is ${exponential(num)}. `;
+  }
+});
+
+
+  </script>
+</body>
+</html>
