@@ -1,14 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
     const newQuoteB = document.querySelector("#js-new-quote");
+    const loading = document.getElementById("loading");
 
     getQuote();
 
     newQuoteB.addEventListener("click", getQuote);
 
     function getQuote() {
-        const api = "https://trivia.cyberwisp.com/getrandomchristmasquestion";
+        loading.style.display = "block";
+    setTimeout(() => {
+        const api = "https://api.quotable.io/random";
 
-        fetch(api) 
+    fetch(api) 
         .then(response => {
             if(!response.ok) {
                 throw new Error("Response INVALID");
@@ -16,17 +19,20 @@ document.addEventListener("DOMContentLoaded", function() {
             return response.json();
         })
         .then(data => {
-            displayQuote(data.question);
+            loading.style.display = "none";
+            displayQuote(data.content);
         })
         .catch(error => {
             console.error("Problem fetching quote:", error);
             alert("Error fetching. Try again please and thank you!");
+            loading.style.display = "none";
         });
+    }, 1000);
     }
 
     function displayQuote(quote) {
         const quoteTextElement = document.getElementById("js-quote-text");
-        quoteTextElement.textContent = quote;
+        quoteTextElement.innerHTML= `<p>${quote}</p>`;
     }
 
 
