@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(lightblue, violet);
+    font-family:"Cambria";
+    text-align: center;
+    margin: 25px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: coral;
+}
