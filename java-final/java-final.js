@@ -23,8 +23,8 @@ function genPhoneNumber() //function for the answer div to take the users checke
     for (let i = 0; i < 10; i++) 
     {
         const checkbox = document.querySelector(`input[name=number${i}]`);
-
         userAnswers.push(checkbox.checked); //useranswers for the function to continue
+        checkbox.checked = false;
     }
 
     const phoneNumber = genRandPhoneNumber(userAnswers); //generates the random phone number from the genRandPhone Number function for the user to see if its there phone number with accompanying buttons
@@ -42,9 +42,17 @@ function genPhoneNumber() //function for the answer div to take the users checke
 
     const nButton = document.createElement("button"); //no button
     nButton.textContent = "No";
-    nButton.onclick = genPhoneNumber;
+    nButton.onclick = noRetry;
     results.appendChild(nButton);
+}
 
+function noRetry() 
+{
+    results.innerHTML = "";
+
+    const retryMessage = document.createElement("p");
+    retryMessage.textContent = "Please enter your phone number again.";
+    results.appendChild(retryMessage);
 }
 
 function genRandPhoneNumber(answers) //this function generates the phone number from the checked boxes by the user
@@ -78,8 +86,8 @@ function checkPhoneNumber(genPhoneNumber) { //checks to see if the number genera
         results.innerHTML = "";
         const thanks = document.createElement("p");
         thanks.textContent = "Thank you for entering your Phone Number!";
-        results.appendChild(thanks)
+        results.appendChild(thanks);
     } else { //returns to genPhoneNumber function
-        genPhoneNumber();
+        noRetry();
     }
 }
